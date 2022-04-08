@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product List Front End Test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="row">
+        <div clas="col-6">
+          <h1>Product List Page Test by Cecily Kasoma</h1>
+        </div>
+        <div class="options">
+          <label for="price-select">Sort</label>
+          <select name="price" id="price-select">
+            <option value="default">Default</option>
+            <option value="high">High To Low</option>
+            <option value="low">Low To High</option>
+          </select>
+        </div>
+      </section>
+      <section class="row"></section>
+      <section class="row" id="productList">
+        <ul class="items"></ul>
+      </section>
+      <div id="load-more" class="btn-show">
+        <button class="show-more">Load More</button>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
